@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Ковалева Екатерина](https://up.htmlacademy.ru/htmlcss/26/user/1163233).
-* Наставник: [Виктория Коваленко] (https://htmlacademy.ru/profile/id42638).
+* Наставник: [Виктория Коваленко](https://htmlacademy.ru/profile/id42638).
 
 ---
 
