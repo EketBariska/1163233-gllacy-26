@@ -1,0 +1,289 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: white;
+
+  background-color: #849D8F;
+  background-image: url("img/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+
+a {
+  text-decoration: none;
+  }
+
+.main-navigation {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  }
+
+.user-navigation {
+  font-style: "Roboto-medium", sans-serif;
+  font-size: 14px;
+  }
+
+.search {
+  border: 0px solid rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 180px;
+  width: 35px;
+  height: 35px;
+}
+
+.entry {
+  border: 0px solid rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 60px;
+  width: 96px;
+  height: 35px;
+}
+
+.backet0 {
+  border: 0px solid rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 60px;
+  width: 103px;
+  height: 36px;
+}
+
+.work-time {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 14px;
+}
+
+.contact-phone {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 22px;
+}
+
+.action1 {
+  background-color: #B52042;
+  background-image: url("img/berry-bg.png");
+}
+
+.berry-action {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 35px;
+  }
+
+.about-action1 {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 18px;
+}
+
+.want-jam {
+  width: 168px;
+  height: 49px;
+  font-size: 18px;
+  font-style: "Roboto-bold", sans-serif;
+  background-image: linear-gradient(0deg, #E74A35 0%, #F26843 100%);
+  box-shadow: 0 2px 2px 0 rgba(172, 16 ,0 ,0.64);
+}
+
+.action2 {
+  background-color: #351606;
+  background-image: url("img/choco-bg.png");
+}
+
+.choco-actions {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 35px;
+}
+
+.about-action2 {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 18px;
+}
+.want-choco {
+  width: 192px;
+  height: 48px;
+  font-size: 18px;
+  font-style: "Roboto-bold", sans-serif;
+  background-image: linear-gradient(0deg, #E74A35 0%, #F26843 100%);
+  box-shadow: 0 2px 2px 0 rgba(172, 16 ,0 ,0.64);
+
+.ice-description {
+  font-style: "Roboto-medium", sans-serif;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.ice-cost {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 45px;
+}
+.kg {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 30px;
+}
+
+.about-store {
+  background-image: url("img/waffle-big.png");
+  background-color: #F0E5CC;
+  border-radius: 15px;
+}
+
+.gllacy-is {
+  font-size: 24px;
+  font-style: "Roboto-medium", sans-serif;
+  color: #323232;
+}
+
+.advantages {
+  font-size: 16px;
+  font-style: "Roboto-regular", sans-serif;
+  color: #323232;
+}
+
+.news {
+  background-image: url("img/strawberry-bg.png");
+  border-radius: 15px;
+}
+
+.news-about-us {
+  font-size: 16px;
+  font-style: "Roboto-medium", sans-serif;
+  color: #323232;
+}
+
+.serving {
+  font-size: 24px;
+  font-style: "Roboto-bold", sans-serif;
+  color: #323232;
+}
+
+.location {
+  background-image: url("img/map.png");
+}
+
+.contacts {
+  background-color: white;
+  border: 0px solid white;
+  border-radius: 15px;
+}
+
+.adress {
+  font-style: "Roboto-regular", sans-serif;
+  font-size: 14px;
+  color: #323232;
+}
+
+.store-adress {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 18px;
+  color: #323232;
+}
+
+.phone-order {
+  font-style: "Roboto-regular", sans-serif;
+  font-size: 14px;
+  color: #323232;
+}
+
+.phone-number {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 18px;
+  color: #323232;
+}
+
+.work-time-2 {
+  font-style: "Roboto-regular", sans-serif;
+  font-size: 14px;
+  color: #323232;
+}
+
+.feedback {
+  width: 254px;
+  height: 46px;
+  font-size: 18px;
+  font-style: "Roboto-bold", sans-serif;
+  background-image: linear-gradient(0deg, #E74A35 0%, #F26843 100%);
+  box-shadow: 0 2px 2px 0 rgba(172, 16 ,0 ,0.64);
+}
+
+.for-providers {
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 13px;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.soc-network {
+  border: 3px;
+  opacity: 50%;
+  color: white;
+}
+
+.footer-menu {
+  font-style: "Roboto-regular", sans-serif;
+  font-size: 13px;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.made-by {
+  font-style: "Roboto-regular", sans-serif;
+  font-size: 12px;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.catalog {
+  border: 0px solid red;
+  background-color: #D07058;
+  border-radius: 90px;
+  color: white;
+  font-style: "Roboto-bold", sans-serif;
+  font-size: 16px;
+}
+
+.basket2 {
+  background-color: white;
+  width: 120px;
+  height: 35px;
+  color: black;
+  font-size: 14px;
+  font-style: "Roboto-bold", sans-serif;
+}
+
+.navigation {
+  font-style: "Roboto-regular", sans-serif;
+  font-size: 14px;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.this-page {
+  font-style: "Roboto-regular", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.options {
+  font-size: 14px;
+  font-style: "Roboto-medium", sans-serif;
+  color: #white;
+}
+
+.choice {
+  font-size: 16px;
+  font-style: "Roboto-medium", sans-serif;
+  color: #white;
+}
+
+.this-page-number {
+  color: #353535;
+  border-radius: 180px;
+  background-color: white;
+  width: 29px;
+  height: 29px;
+  font-style: "Roboto-medium", sans-serif;
+  font-size: 16px;
+}
+
+.page-number {
+  color: white;
+  font-style: "Roboto-medium", sans-serif;
+  font-size: 16px;
+}

@@ -4,85 +4,173 @@
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
-<link href="css/normalize.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-
-  </head>
+    <link href="css/style.css" rel="stylesheet">
+ </head>
 
   <body>
     <h1>Gllacy shop</h1>
     <header>
-      <img src="img/logo.svg" width="150" height="60" alt="Логотип магазина Gllacy Shop">
-      <nav>
-        <ul>
-              <li><a href="catalog.html">Каталог</a></li>
-              <li><a href="ship.html">Доставка и оплата</a></li>
-              <li><a href="about.html">О компании</a></li>
-        </ul>
-      </nav>
-        <button type="search">Поиск</button>
-        <button type="button">Вход</button>
-        <button type="button">Пусто</button>
-      <p>с 10 до 20, ежедневно</p>
-      <p>8 812 450-25-25</p>
+     <img src="img/logo.svg" width="154" height="64" alt="Логотип магазина Gllacy Shop">
+     <nav class="main-navigation">
+      <ul>
+       <li><a href="catalog.html" class="catalog">Каталог</a></li>
+       <li><a href="ship.html">Доставка и оплата</a></li>
+       <li><a href="about.html">О компании</a></li>
+      </ul>
+     </nav>
+
+     <nav class="user-navigation">
+      <ul>
+       <li>
+        <img src="img/loupe.svg" width="17" height="17">
+        <a href="#" class="search">Поиск</a>
+       </li>
+       <li>
+        <img src="img/entrance.svg" width="21" height="19">
+        <a href="#" class="entry">Вход</a>
+       </li>
+       <li>
+        <img src="img/backet.svg" width="21" height="20">
+        <a href="#" class="basket0">Пусто</a>
+       </li>
+      </ul>
+     </nav>
+
+     <p class="work-time">с 10 до 20, ежедневно</p>
+     <p class="contact-phone">8 812 450-25-25</p>
+
+     <p class="work-time">с 10 до 20, ежедневно</p>
+     <p class="contact-phone">8 812 450-25-25</p>
 
     </header>
 
   <main>
-      <h2>
-        Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес
-      </h2>
-    <p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
-    <p>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
-    <p>Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
-    <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус. </p>
+   <section>
+    <div class="action1">
+     <h2 class="berry-action">Малинка даром!</h2>
+     <p class="about-action1">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно. </p>
+     <a href="#" class="want-jam">Хочу варенье!</a>
+    </div>
+    <div class="action2">
+     <h3 class="choco-action">Шоколадки даром!</h3>
+     <p class="about-action2">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.  </p>
+     <a href="#" class="want-choco">Хочу шоколадки!</a>
+    </div>
+   </section>
 
-    <article>
-      <h2>Новое о нашем блоге</h2>
-      <p>10 способов сервировки фруктовых щербетов к столу</p>
+   <section class="hit-catalog">
+     <ul>
+       <li class="ice-description">
+        <img src="img/1.png" width="267" height="267" alt="Вид мороженого">
+        <img src="img/hit.svg" width="61" height="61">
+        <p class="ice-cost">310₽<span class="kg">/кг</span></p>
+        Сливочное с апельсиновым джемом и цитрусовой стружкой 
+      </li>
+      <li class="ice-description">
+       <img src="img/2.png" width="267" height="267" alt="Вид мороженого">
+       <img src="img/hit.svg" width="61" height="61">
+       <p class="ice-cost">380₽<span class="kg">/кг</span></p>
+       Сливочно-кофейное с кусочками шоколада
+      </li>
+      <li class="ice-description">
+       <img src="img/3.png" width="267" height="267" alt="Вид мороженого">
+       <img src="img/hit.svg" width="61" height="61">
+       <p class="ice-cost">355₽<span class="kg">/кг</span></p>
+       Сливочно-клубничное с присыпкой из белого шоколада
+      </li>
+      <li class="ice-description">
+       <img src="img/4.png" width="267" height="267" alt="Вид мороженого">
+       <img src="img/hit.svg" width="61" height="61">
+       <p class="ice-cost">415₽<span class="kg">/кг</span></p>
+       Сливочное крем-брюле с карамельной подливкой
+      </li>
+     </ul>
+   </section>
+
+   <section class="about-store">
+    <h2 class="gllacy-is">
+    Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес
+    </h2>
+     <p class="advantages">
+       <img src="img/ice-cream.svg" width="49" height="49">
+       Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.
+     </p>
+     <p class="advantages">
+       <img src="img/eco.svg" width="49" height="49">
+       Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.
+     </p>
+     <p class="advantages">
+       <img src="img/cow.svg" width="49" height="49">
+       Закупка ингредиентов  производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.
+     </p>
+     <p class="advantages">
+       <img src="img/thermometer.svg" width="49" height="49">
+       Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус. 
+     </p>
+   </section>
+    <article class="news">
+      <h2 class="news-about-us">Новое о нашем блоге</h2>
+      <p class="serving">10 способов сервировки фруктовых щербетов к столу</p>
     </article>
 
-    <article>
+    <article class="subscribe">
       <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
       <textarea>Электронная почта</textarea>
       <button type="button">Отправить</button>
     </article>
 
+    <section class="location">
+      <img src="img/pin.svg" width="80" height="140">
+      <img src="img/pin-shadow.svg" width="182" height="110">
+      <div class="contacts">
+        <h2 class="adress">Адрес главного офиса  и офлайн-магазина:</h2>
+        <p class="store-adress">ул. Большая Конюшенная 19/8, Санкт-Петербург</p>
+        <h3 class="phone-order">Для заказов по телефону:</h3>
+        <p class="phone-number">8 812 450-25-25</p>
+        <p class="work-time-2">(с 10 до 20 ежедневно)</p>
+        <a class="feedback" href="#">Форма обратной связи</a>
+      </div>
+    </section>
   </main>
 
   <footer>
-      <div>
-        <ul>
-          <li>
-              <img src="img/twitter.svg" width="32" height="32" alt="Логотип Twitter">
-            <a href="#" aria-label="Gllacy в Twitter">Twitter</a>
-          </li>
-          <li>
-            <img src="img/instagram.svg" width="32" height="32" alt="Логотип Instagram">
-            <a href="#" aria-label="Gllacy в Instagram">Instagram</a>
-          </li>
-          <li>
-            <img src="img/fb.svg" width="32" height="32" alt="Логотип Facebook">
-            <a href="#" aria-label="Gllacy в Facebook">Facebook</a>
-          </li>
-          <li>
-            <img src="img/vk.svg" width="32" height="32" alt="Логотип Vk">
-            <a href="#" aria-label="Gllacy во Вконтакте">VK</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><a href="provider.html">Для поставщиков</a></li>
-          <li><a href="aboutproduction.html">О производстве</a></li>
-          <li><a href="documents.html">Наши документы</a></li>
-          <li><a href="envstandarts.html">Экологические стандарты</a></li>
-        </ul>
-      </div>
-      <div>
-        <img src="img/logo-htmlacademy.png" width="109" height="38" alt="Логотип HTML Academy">
-          <p>Сделано в<a href="htmlacademy.ru"> HTML Academy</a></p>
-      </div>
-    </footer>
-  </body>
+   <div>
+     <ul>
+       <li class="soc-network">
+        <img src="img/twitter.svg" width="32" height="32" alt="Логотип Twitter">
+        <a href="#" aria-label="Gllacy в Twitter">Twitter</a>
+       </li>
+       <li>
+        <img src="img/instagram.svg" width="32" height="32" alt="Логотип Instagram">
+        <a href="#" aria-label="Gllacy в Instagram">Instagram</a>
+       </li>
+       <li>
+        <img src="img/fb.svg" width="32" height="32" alt="Логотип Facebook">
+        <a href="#" aria-label="Gllacy в Facebook">Facebook</a>
+       </li>
+       <li>
+        <img src="img/vk.svg" width="32" height="32" alt="Логотип Vk">
+        <a href="#" aria-label="Gllacy во Вконтакте">VK</a>
+       </li>
+     </ul>
+   </div>
+
+   <div>
+     <img src="img/heart.svg">
+    <ul>
+     <li><a href="provider.html" class="for-providers">Для поставщиков</a></li>
+     <li><a href="aboutproduction.html" class="footer-menu">О производстве</a></li>
+     <li><a href="documents.html" class="footer-menu">Наши документы</a></li>
+     <li><a href="envstandarts.html" class="footer-menu">Экологические стандарты</a></li>
+    </ul>
+   </div>
+
+   <div>
+    <img src="img/logo-htmlacademy.png" width="109" height="38" alt="Логотип HTML Academy">
+    <p class="made-by">Сделано в<a href="htmlacademy.ru"> HTML Academy</a>© 2019</p>
+  </div>
+ </footer>
+
+</body>
+
 </html>
