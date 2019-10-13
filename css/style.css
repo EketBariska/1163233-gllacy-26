@@ -1,160 +1,359 @@
 body {
   font-family: "Roboto", sans-serif;
   color: white;
-
   background-color: #849D8F;
   background-image: url("img/background.png");
   background-position: center;
   background-repeat: no-repeat;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1159px;
+  height: 106px;
+  margin-top: 9px;
+  margin-right: 14px;
+  margin-left: 27px;
+
+}
+
+.logo {
+  width: 154px;
+  height: 64px;
+  margin-bottom: 42px;
+  margin-right: 1005px;
 }
 
 .main-navigation {
-  font-style: "Roboto-bold", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Roboto-bold", sans-serif;
   font-size: 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  color: white;
+  width: 380px;
+  height: 20px;
+  margin-left: 23px;
+  padding-left: 1px;
+  padding-right: 29px;
+  padding-bottom: 1px;
+
 }
 
-.user-navigation {
-  font-style: "Roboto-medium", sans-serif;
+.search-entry-basket {
+  font-family: "Roboto-medium", sans-serif;
   font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
 }
 
 .search {
+  background-image: url("img/loupe.svg");
   border: 0px solid rgba(255, 255, 255, 0.25);
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 180px;
-  width: 35px;
   height: 35px;
+  width: 35px;
+  color: white;
+  padding: 9px;
 }
 
 .entry {
+  background-image: url("img/entrance.svg");
   border: 0px solid rgba(255, 255, 255, 0.25);
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 60px;
   width: 96px;
   height: 35px;
+  color: white;
+  padding-left: 17px;
+  padding-top: 8px;
+  padding-right: 18px;
+  padding-bottom: 8px;
+
 }
 
-.backet0 {
+.backet-zero {
+  background-image: url("img/basket.svg");
   border: 0px solid rgba(255, 255, 255, 0.25);
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 60px;
-  width: 103px;
+  min-width: 103px;
   height: 36px;
+  color: white;
+  padding-left: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  align-self: flex-end;
+  margin-right: 51px;
+
 }
 
-.work-time {
-  font-style: "Roboto-bold", sans-serif;
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-self: flex-end;
+  margin-right: 50px;
+}
+
+.work-time-header {
+  font-family: "Roboto-bold", sans-serif;
   font-size: 14px;
+  color: white;
+  width: 181px;
+  height: 16px;
+  margin-bottom: 3px;
+
 }
 
 .contact-phone {
-  font-style: "Roboto-bold", sans-serif;
+  font-family: "Roboto-bold", sans-serif;
   font-size: 22px;
+  color: white;
+  width: 196px;
+  height: 64px;
 }
 
-.action1 {
+.special-offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1248px;
+  height: 450px;
+  margin-top: 646px;
+  margin-bottom: 1573px;
+}
+
+.special-offer-berry {
   background-color: #B52042;
   background-image: url("img/berry-bg.png");
+  width: 560px;
+  height: 228px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.berry-action {
-  font-style: "Roboto-bold", sans-serif;
+.action-berry {
+  font-family: "Roboto-bold", sans-serif;
   font-size: 35px;
+  width: 315px;
+  height: 32px;
+  margin-left: 47px;
+  margin-top: 15px;
+  margin-right: 226px;
+  margin-bottom: 183px;
 }
 
-.about-action1 {
-  font-style: "Roboto-bold", sans-serif;
+.about-action-berry {
+  font-family: "Roboto-bold", sans-serif;
   font-size: 18px;
+  width: 514px;
+  height: 67px;
+  margin-left: 47px;
+  margin-top: 270px;
+  margin-right: 26px;
+  margin-bottom: 90px;
 }
 
 .want-jam {
   width: 168px;
   height: 49px;
   font-size: 18px;
-  font-style: "Roboto-bold", sans-serif;
+  font-family: "Roboto-bold", sans-serif;
   background-image: linear-gradient(0deg, #E74A35 0%, #F26843 100%);
   box-shadow: 0 2px 2px 0 rgba(172, 16 ,0 ,0.64);
+  margin-left: 312px;
+  margin-top: 159px;
+  margin-right: 20px;
+  margin-bottom: 22px;
+  padding-left: 1px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
-.action2 {
+.special-offer-choco {
   background-color: #351606;
   background-image: url("img/choco-bg.png");
+  width: 558px;
+  height: 228px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.choco-actions {
-  font-style: "Roboto-bold", sans-serif;
+.action-choco {
+  font-family: "Roboto-bold", sans-serif;
   font-size: 35px;
+  width: 360px;
+  height: 32px;
+  margin-left: 20px;
+  margin-top: 14px;
+  margin-right: 201px;
+  margin-bottom: 184px;
 }
 
-.about-action2 {
-  font-style: "Roboto-bold", sans-serif;
+.about-action-choco {
+  font-family: "Roboto-bold", sans-serif;
   font-size: 18px;
+  width: 557px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 71px;
+  margin-bottom: 118px;
 }
+
 .want-choco {
   width: 192px;
   height: 48px;
   font-size: 18px;
-  font-style: "Roboto-bold", sans-serif;
+  font-family: "Roboto-bold", sans-serif;
   background-image: linear-gradient(0deg, #E74A35 0%, #F26843 100%);
   box-shadow: 0 2px 2px 0 rgba(172, 16 ,0 ,0.64);
+  margin-left: 348px;
+  margin-top: 159px;
+  margin-right: 18px;
+  margin-bottom: 23px;
+  padding-top: 11px;
+  padding-bottom: 20px;
+}
 
-.ice-description {
-  font-style: "Roboto-medium", sans-serif;
+.hit-catalog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1147px;
+  height: 347px;
+  margin-left: 52px;
+  margin-right: 52px;
+  margin-top: 916px;
+  margin-bottom: 1186px;
+
+}
+
+.item {
+  font-family: "Roboto-medium", sans-serif;
   font-size: 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  width: 1147px;
+  height: 347px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ice-image {
+  margin-bottom: 80px;
+}
+
+.hit-image {
+  margin-right: 206px;
+  margin-bottom: 286px;
 }
 
 .ice-cost {
-  font-style: "Roboto-bold", sans-serif;
+  font-family: "Roboto-bold", sans-serif;
   font-size: 45px;
+  margin-top: 232px;
+  margin-left: 182px;
+  margin-bottom: 89px;
+
 }
 .kg {
-  font-style: "Roboto-bold", sans-serif;
+  font-family: "Roboto-bold", sans-serif;
   font-size: 30px;
+  margin-left: 81px;
+  margin-top: 232px;
+  margin-right: 104px;
+  margin-bottom: 102px;
+}
+
+.ice-description {
+  min-width: 297px;
+  min-height: 70px;
+  text-align: center;
 }
 
 .about-store {
-  background-image: url("img/waffle-big.png");
+  background-image: url(img/waffle-big.png);
   background-color: #F0E5CC;
   border-radius: 15px;
 }
 
-.gllacy-is {
+.about-gllacy {
   font-size: 24px;
-  font-style: "Roboto-medium", sans-serif;
+  font-family: "Roboto-medium", sans-serif;
   color: #323232;
+}
+
+.about-store {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 1144px;
+  height: 306px;
+  margin-left: 43px;
+  margin-right: 42px;
+  margin-top: 1268px;
+  margin-bottom: 826px;
 }
 
 .advantages {
+  background-color: #EFE5CB;
+  background-image: url("img/ice-cream.svg");
+  background-image: url("img/eco.svg");
+  background-image: url("img/cow.svg");
+  background-image: url("img/thermometer.svg");
+  background-image: url("img/waffle-big.png");
+  border-radius: 30px;
   font-size: 16px;
-  font-style: "Roboto-regular", sans-serif;
+  font-family: "Roboto-regular", sans-serif;
   color: #323232;
+
 }
 
 .news {
-  background-image: url("img/strawberry-bg.png");
+  background-image: url(img/strawberry-bg.png);
   border-radius: 15px;
 }
 
 .news-about-us {
   font-size: 16px;
-  font-style: "Roboto-medium", sans-serif;
+  font-family: "Roboto-medium", sans-serif;
   color: #323232;
 }
 
-.serving {
+.article {
   font-size: 24px;
-  font-style: "Roboto-bold", sans-serif;
+  font-family: "Roboto-bold", sans-serif;
   color: #323232;
 }
 
-.location {
-  background-image: url("img/map.png");
+.subscribe {
+  background-image: url(img/post-office-bg.png);
+  background-image: url(img/subscribe-bg.png);
+  font-size: 16px;
+  font-family: "Roboto-regular", sans-serif;
+  color: #5A5A5A;
 }
 
 .contacts {
@@ -164,31 +363,31 @@ a {
 }
 
 .adress {
-  font-style: "Roboto-regular", sans-serif;
+  font-family: "Roboto-regular", sans-serif;
   font-size: 14px;
   color: #323232;
 }
 
 .store-adress {
-  font-style: "Roboto-bold", sans-serif;
+  font-family: "Roboto-bold", sans-serif;
   font-size: 18px;
   color: #323232;
 }
 
 .phone-order {
-  font-style: "Roboto-regular", sans-serif;
+  font-family: "Roboto-regular", sans-serif;
   font-size: 14px;
   color: #323232;
 }
 
 .phone-number {
-  font-style: "Roboto-bold", sans-serif;
+  font-family: "Roboto-bold", sans-serif;
   font-size: 18px;
   color: #323232;
 }
 
-.work-time-2 {
-  font-style: "Roboto-regular", sans-serif;
+.work-time-footer {
+  font-family: "Roboto-regular", sans-serif;
   font-size: 14px;
   color: #323232;
 }
@@ -197,33 +396,39 @@ a {
   width: 254px;
   height: 46px;
   font-size: 18px;
-  font-style: "Roboto-bold", sans-serif;
+  font-family: "Roboto-bold", sans-serif;
   background-image: linear-gradient(0deg, #E74A35 0%, #F26843 100%);
   box-shadow: 0 2px 2px 0 rgba(172, 16 ,0 ,0.64);
 }
 
 .for-providers {
-  font-style: "Roboto-bold", sans-serif;
+  background-image: url(img/heart.svg);
+  font-family: "Roboto-bold", sans-serif;
   font-size: 13px;
   color: white;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.soc-network {
+.social-network {
+  background-image: url(img/twitter.svg);
+  background-image: url(img/instagram.svg);
+  background-image: url(img/fb.svg);
+  background-image: url(img/vk.svg);
   border: 3px;
   opacity: 50%;
   color: white;
 }
 
-.footer-menu {
-  font-style: "Roboto-regular", sans-serif;
+.footer-info {
+  font-family: "Roboto-regular", sans-serif;
   font-size: 13px;
   color: white;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
+
 .made-by {
-  font-style: "Roboto-regular", sans-serif;
+  font-family: "Roboto-regular", sans-serif;
   font-size: 12px;
   color: white;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -234,56 +439,56 @@ a {
   background-color: #D07058;
   border-radius: 90px;
   color: white;
-  font-style: "Roboto-bold", sans-serif;
+  font-family: "Roboto-bold", sans-serif;
   font-size: 16px;
 }
 
-.basket2 {
+.basket-two-product {
+  background-image: url(img/basket-red.svg);
   background-color: white;
   width: 120px;
   height: 35px;
   color: black;
-  font-size: 14px;
-  font-style: "Roboto-bold", sans-serif;
+
 }
 
-.navigation {
-  font-style: "Roboto-regular", sans-serif;
+.page-navigation {
+  font-family: "Roboto-regular", sans-serif;
   font-size: 14px;
   color: white;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.this-page {
-  font-style: "Roboto-regular", sans-serif;
+.current-page {
+  font-family: "Roboto-regular", sans-serif;
   font-size: 14px;
   color: white;
 }
 
 .options {
   font-size: 14px;
-  font-style: "Roboto-medium", sans-serif;
+  font-family: "Roboto-medium", sans-serif;
   color: #white;
 }
 
 .choice {
   font-size: 16px;
-  font-style: "Roboto-medium", sans-serif;
+  font-family: "Roboto-medium", sans-serif;
   color: #white;
 }
 
-.this-page-number {
+.current-page-number {
   color: #353535;
   border-radius: 180px;
   background-color: white;
   width: 29px;
   height: 29px;
-  font-style: "Roboto-medium", sans-serif;
+  font-family: "Roboto-medium", sans-serif;
   font-size: 16px;
 }
 
 .page-number {
   color: white;
-  font-style: "Roboto-medium", sans-serif;
+  font-family: "Roboto-medium", sans-serif;
   font-size: 16px;
 }
