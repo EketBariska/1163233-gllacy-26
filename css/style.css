@@ -2,104 +2,83 @@ body {
   font-family: "Roboto", sans-serif;
   color: white;
   background-color: #849D8F;
-  background-image: url("img/background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-left: 25px;
-  margin-right: 25px;
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
+h1 {
+  display: none;
+}
 
 header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 1159px;
-  height: 106px;
+  margin: 0 auto;
   margin-top: 9px;
-  margin-right: 14px;
-  margin-left: 27px;
-
+  min-width: 1200px;
+  padding-left: 27px;
+  padding-right: 27px;
+  box-sizing: border-box;
 }
 
 .logo {
   width: 154px;
   height: 64px;
-  margin-bottom: 42px;
-  margin-right: 1005px;
+  margin-right: 23px;
 }
 
 .main-navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   font-family: "Roboto-bold", sans-serif;
   font-size: 16px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   color: white;
-  width: 380px;
-  height: 20px;
-  margin-left: 23px;
-  padding-left: 1px;
-  padding-right: 29px;
-  padding-bottom: 1px;
-
+  min-width: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
 
 .search-entry-basket {
   font-family: "Roboto-medium", sans-serif;
   font-size: 14px;
   color: white;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-
+  margin: auto;
+  display: inline;
 }
 
 .search {
-  background-image: url("img/loupe.svg");
+  background-image: url("../img/loupe.svg");
   border: 0px solid rgba(255, 255, 255, 0.25);
   background-color: rgba(255, 255, 255, 0.25);
-  border-radius: 180px;
+  border-radius: 50px;
   height: 35px;
   width: 35px;
   color: white;
-  padding: 9px;
 }
 
 .entry {
-  background-image: url("img/entrance.svg");
+  background-image: url("../img/entrance.svg");
   border: 0px solid rgba(255, 255, 255, 0.25);
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 60px;
-  width: 96px;
+  min-width: 96px;
   height: 35px;
   color: white;
-  padding-left: 17px;
-  padding-top: 8px;
-  padding-right: 18px;
-  padding-bottom: 8px;
+  margin-left: 7px;
 
 }
 
 .backet-zero {
-  background-image: url("img/basket.svg");
+  background-image: url("../img/basket.svg");
   border: 0px solid rgba(255, 255, 255, 0.25);
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 60px;
   min-width: 103px;
-  height: 36px;
+  height: 35px;
   color: white;
-  padding-left: 18px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  align-self: flex-end;
-  margin-right: 51px;
+  margin-left: 7px;
+
 
 }
 
@@ -141,7 +120,7 @@ header {
 
 .special-offer-berry {
   background-color: #B52042;
-  background-image: url("img/berry-bg.png");
+  background-image: url("../img/berry-bg.png");
   width: 560px;
   height: 228px;
   display: flex;
@@ -349,8 +328,7 @@ header {
 }
 
 .subscribe {
-  background-image: url(img/post-office-bg.png);
-  background-image: url(img/subscribe-bg.png);
+  background-image: url("../img/post-office-bg.png"), url("../img/subscribe-bg.png");
   font-size: 16px;
   font-family: "Roboto-regular", sans-serif;
   color: #5A5A5A;
